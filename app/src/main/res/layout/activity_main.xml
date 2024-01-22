@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_above="@+id/get_weather"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Тут будет погода в Нижнем Тагиле"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <Button
+        android:id="@+id/get_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Узнать погоду в Нижнем Тагиле"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
